@@ -3,26 +3,28 @@ topic : DOM 操作與事件處理
   u44-u49   
   &emsp;u44:  
   &emsp;u45:瀏覽器渲染流程與DOM  
-    &emsp;&emsp;瀏覽器先讀取hmtl,css 之後才會讀取javascript ,  
-    &emsp;&emsp;因此，javascript 會改變html 的結構 之後開始渲染 
-    &emsp;&emsp;html 解析後會成為 dom   
-    &emsp;&emsp;css  解析後會成為 cssom  
-    &emsp;&emsp;dom 與 cssom 如同 瀏覽氣開放給javascript 的api 
-  &emsp;u46 : 樹狀結構與dom節點  
-    &emsp;dom 全面叫做 文件物件模型 (document object model)
-    &emsp;&emsp;也就是html 會被解析成為 object 物件，  
+    &emsp;&emsp;瀏覽器先讀取hmtl,css 之後才會讀取javascript ,<br>  
+    &emsp;&emsp;因此，javascript 會改變html 的結構 之後開始渲染 <br>
+    <br>    
+    &emsp;&emsp;html 解析後會成為 dom<br>     
+    &emsp;&emsp;css  解析後會成為 cssom<br>    
+    &emsp;&emsp;dom 與 cssom 如同 瀏覽氣開放給javascript 的api <br>  
+  
+  &emsp;u46 : 樹狀結構與dom節點<br>  
+    &emsp;dom 全面叫做 文件物件模型 (document object model)<br>  
+    &emsp;&emsp;也就是html 會被解析成為 object 物件，<br>
     &emsp;&emsp;因此我們後續找尋節點的方式也是物件方法<br>   
   
-  &emsp;dom 的數據結構是樹狀結構dom tree 
-  &emsp;dom 的元數節點之間會成為父子、兄弟關係
-  &emsp;瀏覽器為最高級別 window window 裡面其中一個物件為 document  
-  &emsp;document 為 html 物件中最高級別  
+  &emsp;dom 的數據結構是樹狀結構dom tree <br>
+  &emsp;dom 的元數節點之間會成為父子、兄弟關係<br>
+  &emsp;瀏覽器為最高級別 window window 裡面其中一個物件為 document<br>  
+  &emsp;document 為 html 物件中最高級別<br>  
     
-  &emsp;u47 : 選出特定dom 節點  
-    &emsp;&emsp;幾種常見的方式：  
+  &emsp;u47 : 選出特定dom 節點<br>  
+    &emsp;&emsp;幾種常見的方式：<br>  
     `document.querySelector('')  
 
-  &emsp;備註：.node => class  #id  name=> 所有節點
+  &emsp;備註：.node => class  #id  name=> 所有節點<br>
 
 
 u50-u51 :  
