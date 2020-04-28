@@ -9,7 +9,7 @@ topic : DOM 操作與事件處理
     &emsp;&emsp;css  解析後會成為 cssom  
     &emsp;&emsp;dom 與 cssom 如同 瀏覽氣開放給javascript 的api 
   &emsp;u46 : 樹狀結構與dom節點  
-    &emsp;&emsp;dom 全面叫做 文件物件模型 (document object model)
+    &emsp;dom 全面叫做 文件物件模型 (document object model)
     &emsp;&emsp;也就是html 會被解析成為 object 物件，  
     &emsp;&emsp;因此我們後續找尋節點的方式也是物件方法<br>   
   
@@ -22,7 +22,7 @@ topic : DOM 操作與事件處理
     &emsp;&emsp;幾種常見的方式：  
     `document.querySelector('')  
 
-    &emsp; 備註：.node => class  #id  name=> 所有節點
+  &emsp;備註：.node => class  #id  name=> 所有節點
 
 
 u50-u51 :  
