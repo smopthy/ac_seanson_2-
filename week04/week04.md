@@ -3,11 +3,11 @@ topic : DOM 操作與事件處理
   u44-u49   
   u44:  
   u45:瀏覽器渲染流程與DOM  
-    瀏覽器先讀取hmtl,css 之後才會讀取javascript ,  
-    因此，javascript 會改變html 的結構 之後開始渲染 
-    html 解析後會成為 dom   
-    css  解析後會成為 cssom  
-    dom 與 cssom 如同 瀏覽氣開放給javascript 的api 
+    &emsp;瀏覽器先讀取hmtl,css 之後才會讀取javascript ,  
+    &emsp;因此，javascript 會改變html 的結構 之後開始渲染 
+    &emsp;html 解析後會成為 dom   
+    &emsp;css  解析後會成為 cssom  
+    &emsp;dom 與 cssom 如同 瀏覽氣開放給javascript 的api 
   u46 : 樹狀結構與dom節點  
     dom 全面叫做 文件物件模型 (document object model)
     也就是html 會被解析成為 object 物件，  
