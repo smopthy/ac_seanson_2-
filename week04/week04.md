@@ -19,9 +19,6 @@ u50-u51 :
         element.EventListener('click' , function()=>{})
 
         此外，我們可以直接寫在html裡面 // 比較舊的寫法，且很多游覽器不支持，所以不推薦  
-        <input value="Click me" onclick="greeting()" type="button">
+        <input value="Click me" onclick="greeting()" type="button">  
         
-
-
-    
-    u54事件操作：todolist 
+   u54事件操作：todolist 
