@@ -1,7 +1,7 @@
-####topic : DOM 操作與事件處理 
+#topic : DOM 操作與事件處理 
   
-u44-u49   
-&emsp;u44:  
+##u44-u49   
+###u44:  
 &emsp;u45:瀏覽器渲染流程與DOM  
 &emsp;&emsp;瀏覽器先讀取hmtl,css 之後才會讀取javascript ,    
 &emsp;&emsp;因此，javascript 會改變html 的結構 之後開始渲染       
